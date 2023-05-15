@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: absolute;   
+    top: 10%;
+    bottom: auto;
+    right: 25%;
+    left: 25%;
+}
+
+button{
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    align-items: center;
+}
+
+button img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+.search{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    height: 40px;
+    width:250px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.content{
+    margin:30px 10px 30px 10px;
+    padding: 0 20px;
+    bottom: 0;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.content p{
+    font-size: 1.5em;
+}
+
